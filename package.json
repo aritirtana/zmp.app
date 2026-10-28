@@ -1,0 +1,26 @@
+{
+  "name": "zmp-app",
+  "version": "1.0.0",
+  "description": "ZMP App - Faktur & Akuntansi (Android)",
+  "main": "index.js",
+  "scripts": {
+    "sync": "cap sync android",
+    "apk": "cap sync android && cd android && ./gradlew assembleDebug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/cli": "^8.5.3",
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/filesystem": "^8.1.5",
+    "@capacitor/share": "^8.0.3",
+    "@fontsource/plus-jakarta-sans": "^5.3.0"
+  },
+  "private": true,
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5"
+  }
+}

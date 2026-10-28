@@ -1,0 +1,7 @@
+{
+  "appId": "id.zmp.app",
+  "appName": "ZMP App",
+  "webDir": "www",
+  "android": { "allowMixedContent": false },
+  "plugins": { "SystemBars": { "insetsHandling": "css", "initialViewportFitValueHint": "cover" } }
+}
